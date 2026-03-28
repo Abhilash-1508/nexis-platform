@@ -34,8 +34,8 @@ spring:
   mail:
     host: ${MAIL_HOST:smtp.gmail.com}
     port: ${MAIL_PORT:587}
-    username: ${MAIL_USERNAME}
-    password: ${MAIL_PASSWORD}
+    username: ${MAIL_USERNAME:NEXIS_EMAIL_NOT_SET}
+    password: ${MAIL_PASSWORD:NEXIS_PASS_NOT_SET}
     properties:
       mail:
         smtp:
@@ -52,10 +52,10 @@ server:
   port: ${PORT:8080}
 
 twilio:
-  account-sid: ${TWILIO_ACCOUNT_SID}
-  messaging-service-sid: ${TWILIO_MESSAGING_SERVICE_SID}
-  auth-token: ${TWILIO_AUTH_TOKEN}
-  phone-number: ${TWILIO_PHONE_NUMBER}
+  account-sid: ${TWILIO_ACCOUNT_SID:TWILIO_SID_NOT_SET}
+  messaging-service-sid: ${TWILIO_MESSAGING_SERVICE_SID:} 
+  auth-token: ${TWILIO_AUTH_TOKEN:TWILIO_TOKEN_NOT_SET}
+  phone-number: ${TWILIO_PHONE_NUMBER:+1234567890}
 
 razorpay:
   key-id: ${RAZORPAY_KEY_ID:rzp_test_placeholder_123}
@@ -68,3 +68,4 @@ openai:
   api-key: ${OPENAI_API_KEY}
   model: ${OPENAI_MODEL:gpt-3.5-turbo}
   url: ${OPENAI_API_URL:https://api.openai.com/v1/chat/completions}
+

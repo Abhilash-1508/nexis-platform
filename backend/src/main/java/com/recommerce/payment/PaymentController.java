@@ -1,10 +1,8 @@
 package com.recommerce.payment;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import com.recommerce.product.OrderRepository;
 import com.stripe.Stripe;
 import com.stripe.exception.StripeException;
 import com.stripe.model.PaymentIntent;
@@ -24,7 +22,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class PaymentController {
     private final PaymentRepository paymentRepository;
     private final PaymentService paymentService;
-    private final OrderRepository orderRepository;
 
     @Value("${razorpay.key-id:}")
     private String razorpayKeyId;
@@ -33,13 +30,12 @@ public class PaymentController {
     private String razorpayKeySecret;
 
     public PaymentController(PaymentRepository paymentRepository, PaymentService paymentService, 
-                           OrderRepository orderRepository,
                            @Value("${stripe.api.key:sk_test_mock}") String stripeApiKey) {
         this.paymentRepository = paymentRepository;
         this.paymentService = paymentService;
-        this.orderRepository = orderRepository;
         Stripe.apiKey = stripeApiKey;
     }
+
 
     @PostMapping("/create-order")
     public ResponseEntity<?> createRazorpayOrder(@RequestBody Map<String, Object> request) {
