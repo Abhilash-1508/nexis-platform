@@ -1,0 +1,35 @@
+# Nexis Global Configuration
+# This file governs the repository excluded from the Nexis Hub.
+
+# Java/Spring
+backend/target/
+backend/data/
+backend/logs/
+backend/*.log
+backend/.env
+backend/.factorypath
+backend/.project
+backend/.classpath
+backend/.settings/
+
+# Next.js/React
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/.DS_Store
+
+# IDEs & System
+.vscode/
+.idea/
+.sfdx/
+.DS_Store
+Thumbs.db
+*.exe
+*.dll
+*.so
+*.class

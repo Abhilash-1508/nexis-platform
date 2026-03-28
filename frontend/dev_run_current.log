@@ -1,0 +1,943 @@
+
+> frontend@0.1.0 dev
+> next dev
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/user/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /Users/user/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/package-lock.json
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.186:3000
+- Environments: .env.local
+
+✓ Starting...
+✓ Ready in 4.5s
+ GET /checkout?productId=33 200 in 6.6s (compile: 4.1s, render: 2.5s)
+ GET /login?redirect=/checkout 200 in 795ms (compile: 408ms, render: 387ms)
+ GET / 200 in 201ms (compile: 62ms, render: 139ms)
+ GET /product/33 200 in 1546ms (compile: 1472ms, render: 74ms)
+ GET /product/33 200 in 512ms (compile: 434ms, render: 78ms)
+ GET /product/33 200 in 272ms (compile: 93ms, render: 178ms)
+ GET /checkout?productId=33 200 in 43ms (compile: 10ms, render: 33ms)
+ GET /checkout/success 200 in 214ms (compile: 174ms, render: 41ms)
+ GET / 200 in 52ms (compile: 13ms, render: 39ms)
+ GET / 200 in 153ms (compile: 25ms, render: 128ms)
+✓ Compiled in 9.2s
+⚠ Fast Refresh had to perform a full reload when ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/context/CartContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 1113ms (compile: 1069ms, render: 44ms)
+ GET / 200 in 1045ms (compile: 965ms, render: 80ms)
+ GET / 200 in 1048ms (compile: 923ms, render: 125ms)
+ GET / 200 in 1044ms (compile: 838ms, render: 206ms)
+ GET / 200 in 1044ms (compile: 689ms, render: 354ms)
+ GET / 200 in 997ms (compile: 51ms, render: 946ms)
+✓ Compiled in 140ms
+✓ Compiled in 92ms
+ GET /login 200 in 851ms (compile: 635ms, render: 216ms)
+✓ Compiled in 297ms
+✓ Compiled in 0ms
+⚠ Fast Refresh had to perform a full reload when ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/context/CartContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /login 200 in 2.5s (compile: 920ms, render: 1583ms)
+ GET /login 200 in 891ms (compile: 660ms, render: 231ms)
+ GET /login 200 in 2.2s (compile: 1533ms, render: 699ms)
+ GET /login 200 in 2.5s (compile: 1441ms, render: 1053ms)
+✓ Compiled in 161ms
+ GET /login 200 in 1833ms (compile: 578ms, render: 1254ms)
+✓ Compiled in 502ms
+ GET / 200 in 820ms (compile: 195ms, render: 625ms)
+ GET /product/33 200 in 664ms (compile: 435ms, render: 229ms)
+ GET /checkout?productId=33 200 in 582ms (compile: 206ms, render: 376ms)
+✓ Compiled in 356ms
+ GET /checkout/success 200 in 1108ms (compile: 983ms, render: 125ms)
+ GET / 200 in 306ms (compile: 174ms, render: 132ms)
+ GET /product/129 200 in 140ms (compile: 78ms, render: 62ms)
+✓ Compiled in 2.1s
+ GET /product/161 200 in 321ms (compile: 83ms, render: 238ms)
+ GET /product/129 200 in 441ms (compile: 15ms, render: 425ms)
+ GET /product/129 200 in 441ms (compile: 23ms, render: 418ms)
+ GET /checkout?productId=129 200 in 45ms (compile: 16ms, render: 29ms)
+ GET /checkout/success 200 in 97ms (compile: 17ms, render: 80ms)
+ GET / 200 in 48ms (compile: 16ms, render: 32ms)
+✓ Compiled in 1243ms
+✓ Compiled in 175ms
+✓ Compiled in 12.8s
+✓ Compiled in 1569ms
+✓ Compiled in 1810ms
+ GET / 200 in 2.5s (compile: 1188ms, render: 1304ms)
+ GET / 200 in 424ms (compile: 169ms, render: 255ms)
+ GET / 200 in 457ms (compile: 156ms, render: 301ms)
+ GET / 200 in 361ms (compile: 240ms, render: 121ms)
+ GET / 200 in 127ms (compile: 67ms, render: 60ms)
+ GET / 200 in 198ms (compile: 73ms, render: 125ms)
+ GET / 200 in 200ms (compile: 6ms, render: 194ms)
+ GET / 200 in 200ms (compile: 37ms, render: 163ms)
+ GET / 200 in 199ms (compile: 146ms, render: 53ms)
+ GET / 200 in 201ms (compile: 118ms, render: 83ms)
+ GET / 200 in 639ms (compile: 3ms, render: 636ms)
+ GET / 200 in 117ms (compile: 4ms, render: 113ms)
+✓ Compiled in 3.1s
+✓ Finished filesystem cache database compaction in 15.3s
+✓ Compiled in 1068ms
+ GET /product/129 200 in 310ms (compile: 213ms, render: 96ms)
+✓ Compiled in 511ms
+○ Compiling /admin/dashboard ...
+ GET /admin/dashboard 200 in 7.7s (compile: 6.9s, render: 831ms)
+ GET /admin/users 200 in 928ms (compile: 871ms, render: 57ms)
+ GET /admin/products 200 in 1603ms (compile: 1554ms, render: 49ms)
+ GET /admin/security 404 in 477ms (compile: 445ms, render: 32ms)
+ GET /admin/security 404 in 660ms (compile: 6ms, render: 654ms)
+✓ Compiled in 1628ms
+ GET /admin/settings 404 in 49ms (compile: 18ms, render: 31ms)
+ GET /admin/settings 404 in 88ms (compile: 5ms, render: 84ms)
+ GET / 200 in 45ms (compile: 7ms, render: 38ms)
+✓ Compiled in 887ms
+ GET /product/65 200 in 622ms (compile: 179ms, render: 442ms)
+ GET / 200 in 59ms (compile: 12ms, render: 47ms)
+○ Compiling /profile ...
+ GET /profile 200 in 3.4s (compile: 3.1s, render: 295ms)
+ GET /admin/dashboard 200 in 53ms (compile: 11ms, render: 42ms)
+ GET /admin/security 404 in 49ms (compile: 27ms, render: 22ms)
+ GET /admin/security 404 in 163ms (compile: 9ms, render: 154ms)
+ GET / 200 in 132ms (compile: 56ms, render: 75ms)
+ GET /admin/dashboard 200 in 54ms (compile: 10ms, render: 45ms)
+ GET / 200 in 28ms (compile: 7ms, render: 21ms)
+ GET /cart 200 in 3.0s (compile: 2.5s, render: 408ms)
+ GET /cart 200 in 1836ms (compile: 1583ms, render: 253ms)
+✓ Finished filesystem cache database compaction in 15.3s
+✓ Compiled in 5.4s
+✓ Compiled in 24.8s
+ GET / 200 in 6.8s (compile: 2.7s, render: 4.1s)
+ GET / 200 in 1857ms (compile: 551ms, render: 1305ms)
+ GET / 200 in 1846ms (compile: 740ms, render: 1106ms)
+ GET / 200 in 1399ms (compile: 479ms, render: 921ms)
+ GET / 200 in 932ms (compile: 257ms, render: 676ms)
+ GET / 200 in 693ms (compile: 126ms, render: 567ms)
+ GET / 200 in 963ms (compile: 133ms, render: 830ms)
+ GET / 200 in 739ms (compile: 83ms, render: 656ms)
+ GET / 200 in 711ms (compile: 200ms, render: 510ms)
+ GET / 200 in 668ms (compile: 268ms, render: 400ms)
+ GET / 200 in 243ms (compile: 10ms, render: 233ms)
+✓ Compiled in 763ms
+✓ Compiled in 3.6s
+ GET /product/33 200 in 900ms (compile: 493ms, render: 407ms)
+✓ Compiled in 4.7s
+ GET /product/33 200 in 2.4s (compile: 1481ms, render: 925ms)
+ GET /product/33 200 in 727ms (compile: 198ms, render: 529ms)
+ GET /product/33 200 in 383ms (compile: 13ms, render: 371ms)
+ GET /product/33 200 in 386ms (compile: 72ms, render: 314ms)
+ GET /product/33 200 in 324ms (compile: 66ms, render: 258ms)
+ GET /product/33 200 in 266ms (compile: 49ms, render: 217ms)
+ GET /product/33 200 in 390ms (compile: 7ms, render: 383ms)
+ GET /product/33 200 in 355ms (compile: 5ms, render: 350ms)
+ GET /product/33 200 in 315ms (compile: 9ms, render: 306ms)
+ GET /product/33 200 in 314ms (compile: 99ms, render: 215ms)
+ GET /product/33 200 in 321ms (compile: 48ms, render: 273ms)
+ GET /product/33 200 in 184ms (compile: 9ms, render: 176ms)
+ GET /product/33 200 in 593ms (compile: 8ms, render: 585ms)
+ GET /product/33 200 in 634ms (compile: 8ms, render: 626ms)
+ GET /product/33 200 in 635ms (compile: 183ms, render: 452ms)
+ GET /product/33 200 in 471ms (compile: 115ms, render: 355ms)
+ GET /product/33 200 in 368ms (compile: 66ms, render: 302ms)
+ GET /product/33 200 in 311ms (compile: 75ms, render: 236ms)
+ GET /product/33 200 in 850ms (compile: 4ms, render: 846ms)
+ GET /product/33 200 in 1369ms (compile: 9ms, render: 1360ms)
+ GET /product/33 200 in 1370ms (compile: 59ms, render: 1311ms)
+ GET /product/33 200 in 1327ms (compile: 134ms, render: 1193ms)
+ GET /product/33 200 in 1207ms (compile: 109ms, render: 1098ms)
+ GET /product/33 200 in 1106ms (compile: 116ms, render: 990ms)
+ GET /product/33 200 in 1804ms (compile: 8ms, render: 1796ms)
+ GET /product/33 200 in 1542ms (compile: 24ms, render: 1517ms)
+ GET /product/33 200 in 1541ms (compile: 341ms, render: 1200ms)
+ GET /product/33 200 in 1093ms (compile: 27ms, render: 1066ms)
+ GET /product/33 200 in 1074ms (compile: 59ms, render: 1015ms)
+ GET /product/33 200 in 727ms (compile: 123ms, render: 604ms)
+ GET /product/33 200 in 951ms (compile: 6ms, render: 945ms)
+ GET / 200 in 173ms (compile: 101ms, render: 71ms)
+ GET /product/33 200 in 724ms (compile: 39ms, render: 684ms)
+ GET /product/33 200 in 722ms (compile: 174ms, render: 548ms)
+ GET /product/33 200 in 321ms (compile: 51ms, render: 270ms)
+ GET /product/33 200 in 336ms (compile: 19ms, render: 317ms)
+ GET /product/33 200 in 248ms (compile: 8ms, render: 241ms)
+ GET /product/33 200 in 60ms (compile: 14ms, render: 46ms)
+ GET /checkout?productId=33 200 in 2.1s (compile: 2.0s, render: 104ms)
+ GET /checkout?productId=33 200 in 4.4s (compile: 3.7s, render: 719ms)
+ GET /checkout?productId=33 200 in 4.1s (compile: 3.7s, render: 481ms)
+ GET /checkout?productId=33 200 in 4.2s (compile: 3.7s, render: 408ms)
+ GET /checkout?productId=33 200 in 4.2s (compile: 3.9s, render: 238ms)
+ GET /checkout?productId=33 200 in 4.4s (compile: 4.2s, render: 189ms)
+ GET /checkout?productId=33 200 in 4.4s (compile: 4.2s, render: 149ms)
+✓ Compiled in 0ms
+ GET /checkout?productId=33 200 in 662ms (compile: 54ms, render: 608ms)
+ GET /checkout?productId=33 200 in 665ms (compile: 19ms, render: 646ms)
+ GET /checkout?productId=33 200 in 667ms (compile: 138ms, render: 530ms)
+ GET /checkout?productId=33 200 in 673ms (compile: 213ms, render: 460ms)
+ GET /checkout?productId=33 200 in 674ms (compile: 260ms, render: 413ms)
+ GET /checkout?productId=33 200 in 598ms (compile: 9ms, render: 589ms)
+ GET /checkout?productId=33 200 in 379ms (compile: 27ms, render: 352ms)
+ GET /checkout?productId=33 200 in 378ms (compile: 126ms, render: 252ms)
+ GET /checkout?productId=33 200 in 382ms (compile: 65ms, render: 316ms)
+ GET /checkout?productId=33 200 in 376ms (compile: 220ms, render: 156ms)
+ GET /checkout?productId=33 200 in 382ms (compile: 169ms, render: 212ms)
+ GET /checkout?productId=33 200 in 296ms (compile: 3ms, render: 293ms)
+ GET /checkout?productId=33 200 in 254ms (compile: 52ms, render: 202ms)
+ GET /checkout?productId=33 200 in 261ms (compile: 14ms, render: 247ms)
+ GET /checkout?productId=33 200 in 258ms (compile: 120ms, render: 138ms)
+ GET /checkout?productId=33 200 in 263ms (compile: 85ms, render: 178ms)
+ GET /checkout?productId=33 200 in 269ms (compile: 155ms, render: 114ms)
+ GET /checkout?productId=33 200 in 294ms (compile: 5ms, render: 289ms)
+ GET /checkout?productId=33 200 in 274ms (compile: 83ms, render: 191ms)
+ GET /checkout?productId=33 200 in 280ms (compile: 48ms, render: 231ms)
+ GET /checkout?productId=33 200 in 237ms (compile: 74ms, render: 163ms)
+ GET /checkout?productId=33 200 in 294ms (compile: 16ms, render: 278ms)
+ GET /checkout?productId=33 200 in 363ms (compile: 14ms, render: 350ms)
+ GET /checkout?productId=33 200 in 691ms (compile: 8ms, render: 683ms)
+ GET /checkout?productId=33 200 in 820ms (compile: 71ms, render: 750ms)
+ GET /checkout?productId=33 200 in 827ms (compile: 30ms, render: 797ms)
+ GET /checkout?productId=33 200 in 831ms (compile: 146ms, render: 685ms)
+ GET /checkout?productId=33 200 in 627ms (compile: 12ms, render: 616ms)
+ GET /checkout?productId=33 200 in 650ms (compile: 26ms, render: 625ms)
+ GET /checkout?productId=33 200 in 364ms (compile: 38ms, render: 326ms)
+ GET /checkout?productId=33 200 in 185ms (compile: 62ms, render: 123ms)
+ GET /checkout?productId=33 200 in 195ms (compile: 6ms, render: 188ms)
+✓ Compiled in 5.1s
+⨯ ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx:446:14
+Parsing ecmascript source code failed
+[0m [90m 444 |[39m                 ))}
+ [90m 445 |[39m               [33m<[39m[33m/[39m[33mmotion[39m[33m.[39mdiv[33m>[39m
+[31m[1m>[22m[39m[90m 446 |[39m             )}
+ [90m     |[39m              [31m[1m^[22m[39m
+ [90m 447 |[39m           [33m<[39m[33m/[39m[33mAnimatePresence[39m[33m>[39m
+ [90m 448 |[39m         [33m<[39m[33m/[39m[33mmain[39m[33m>[39m
+ [90m 449 |[39m       [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Client Component Browser]
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Client Component SSR]
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Server Component]
+
+
+⨯ ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx:446:14
+Parsing ecmascript source code failed
+[0m [90m 444 |[39m                 ))}
+ [90m 445 |[39m               [33m<[39m[33m/[39m[33mmotion[39m[33m.[39mdiv[33m>[39m
+[31m[1m>[22m[39m[90m 446 |[39m             )}
+ [90m     |[39m              [31m[1m^[22m[39m
+ [90m 447 |[39m           [33m<[39m[33m/[39m[33mAnimatePresence[39m[33m>[39m
+ [90m 448 |[39m         [33m<[39m[33m/[39m[33mmain[39m[33m>[39m
+ [90m 449 |[39m       [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Client Component Browser]
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Client Component SSR]
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Server Component]
+
+
+✓ Compiled in 27.2s
+○ Compiling / ...
+⨯ ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx:446:14
+Parsing ecmascript source code failed
+[0m [90m 444 |[39m                 ))}
+ [90m 445 |[39m               [33m<[39m[33m/[39m[33mmotion[39m[33m.[39mdiv[33m>[39m
+[31m[1m>[22m[39m[90m 446 |[39m             )}
+ [90m     |[39m              [31m[1m^[22m[39m
+ [90m 447 |[39m           [33m<[39m[33m/[39m[33mAnimatePresence[39m[33m>[39m
+ [90m 448 |[39m         [33m<[39m[33m/[39m[33mmain[39m[33m>[39m
+ [90m 449 |[39m       [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Client Component Browser]
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Client Component SSR]
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Server Component]
+
+
+⨯ ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx:446:14
+Parsing ecmascript source code failed
+[0m [90m 444 |[39m                 ))}
+ [90m 445 |[39m               [33m<[39m[33m/[39m[33mmotion[39m[33m.[39mdiv[33m>[39m
+[31m[1m>[22m[39m[90m 446 |[39m             )}
+ [90m     |[39m              [31m[1m^[22m[39m
+ [90m 447 |[39m           [33m<[39m[33m/[39m[33mAnimatePresence[39m[33m>[39m
+ [90m 448 |[39m         [33m<[39m[33m/[39m[33mmain[39m[33m>[39m
+ [90m 449 |[39m       [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Client Component Browser]
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Client Component SSR]
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Server Component]
+
+
+⨯ ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx:446:14
+Parsing ecmascript source code failed
+[0m [90m 444 |[39m                 ))}
+ [90m 445 |[39m               [33m<[39m[33m/[39m[33mmotion[39m[33m.[39mdiv[33m>[39m
+[31m[1m>[22m[39m[90m 446 |[39m             )}
+ [90m     |[39m              [31m[1m^[22m[39m
+ [90m 447 |[39m           [33m<[39m[33m/[39m[33mAnimatePresence[39m[33m>[39m
+ [90m 448 |[39m         [33m<[39m[33m/[39m[33mmain[39m[33m>[39m
+ [90m 449 |[39m       [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Client Component Browser]
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Client Component SSR]
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Server Component]
+
+
+⨯ ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx:446:14
+Parsing ecmascript source code failed
+[0m [90m 444 |[39m                 ))}
+ [90m 445 |[39m               [33m<[39m[33m/[39m[33mmotion[39m[33m.[39mdiv[33m>[39m
+[31m[1m>[22m[39m[90m 446 |[39m             )}
+ [90m     |[39m              [31m[1m^[22m[39m
+ [90m 447 |[39m           [33m<[39m[33m/[39m[33mAnimatePresence[39m[33m>[39m
+ [90m 448 |[39m         [33m<[39m[33m/[39m[33mmain[39m[33m>[39m
+ [90m 449 |[39m       [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Client Component Browser]
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Client Component SSR]
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Server Component]
+
+
+⨯ ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx:446:14
+Parsing ecmascript source code failed
+[0m [90m 444 |[39m                 ))}
+ [90m 445 |[39m               [33m<[39m[33m/[39m[33mmotion[39m[33m.[39mdiv[33m>[39m
+[31m[1m>[22m[39m[90m 446 |[39m             )}
+ [90m     |[39m              [31m[1m^[22m[39m
+ [90m 447 |[39m           [33m<[39m[33m/[39m[33mAnimatePresence[39m[33m>[39m
+ [90m 448 |[39m         [33m<[39m[33m/[39m[33mmain[39m[33m>[39m
+ [90m 449 |[39m       [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Client Component Browser]
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Client Component SSR]
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Server Component]
+
+
+⨯ ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx:446:14
+Parsing ecmascript source code failed
+[0m [90m 444 |[39m                 ))}
+ [90m 445 |[39m               [33m<[39m[33m/[39m[33mmotion[39m[33m.[39mdiv[33m>[39m
+[31m[1m>[22m[39m[90m 446 |[39m             )}
+ [90m     |[39m              [31m[1m^[22m[39m
+ [90m 447 |[39m           [33m<[39m[33m/[39m[33mAnimatePresence[39m[33m>[39m
+ [90m 448 |[39m         [33m<[39m[33m/[39m[33mmain[39m[33m>[39m
+ [90m 449 |[39m       [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Client Component Browser]
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Client Component SSR]
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Server Component]
+
+
+✓ Compiled in 4s
+ GET / 500 in 4.3s (compile: 2.8s, render: 1589ms)
+✓ Finished filesystem cache database compaction in 40.0s
+⨯ ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx:446:14
+Parsing ecmascript source code failed
+[0m [90m 444 |[39m                 ))}
+ [90m 445 |[39m               [33m<[39m[33m/[39m[33mmotion[39m[33m.[39mdiv[33m>[39m
+[31m[1m>[22m[39m[90m 446 |[39m             )}
+ [90m     |[39m              [31m[1m^[22m[39m
+ [90m 447 |[39m           [33m<[39m[33m/[39m[33mAnimatePresence[39m[33m>[39m
+ [90m 448 |[39m         [33m<[39m[33m/[39m[33mmain[39m[33m>[39m
+ [90m 449 |[39m       [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Client Component Browser]
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Client Component SSR]
+    ./Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx [Server Component]
+
+
+ GET / 500 in 264ms (compile: 224ms, render: 41ms)
+✓ Compiled in 263ms
+⨯ ReferenceError: Link is not defined
+    at RootLayout (src/app/layout.tsx:43:22)
+  41 |               <h3 className="text-white text-base font-bold mb-4">Get to Know Us</h3>
+  42 |               <ul className="space-y-3 text-sm text-[#DDDDDD]">
+> 43 |                 <li><Link href="#" className="hover:underline">About Nexis</Link></li>
+     |                      ^
+  44 |                 <li><Link href="#" className="hover:underline">Careers</Link></li>
+  45 |                 <li><Link href="#" className="hover:underline">Press Releases</Link></li>
+  46 |                 <li><Link href="#" className="hover:underline">Nexis Science</Link></li> {
+  digest: '1955754664'
+}
+ GET / 500 in 3.4s (compile: 1109ms, render: 2.3s)
+⨯ ReferenceError: Link is not defined
+    at RootLayout (src/app/layout.tsx:43:22)
+  41 |               <h3 className="text-white text-base font-bold mb-4">Get to Know Us</h3>
+  42 |               <ul className="space-y-3 text-sm text-[#DDDDDD]">
+> 43 |                 <li><Link href="#" className="hover:underline">About Nexis</Link></li>
+     |                      ^
+  44 |                 <li><Link href="#" className="hover:underline">Careers</Link></li>
+  45 |                 <li><Link href="#" className="hover:underline">Press Releases</Link></li>
+  46 |                 <li><Link href="#" className="hover:underline">Nexis Science</Link></li> {
+  digest: '1955754664'
+}
+ GET / 500 in 451ms (compile: 15ms, render: 436ms)
+✓ Compiled in 231ms
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⨯ ReferenceError: Link is not defined
+    at RootLayout (src/app/layout.tsx:43:22)
+  41 |               <h3 className="text-white text-base font-bold mb-4">Get to Know Us</h3>
+  42 |               <ul className="space-y-3 text-sm text-[#DDDDDD]">
+> 43 |                 <li><Link href="#" className="hover:underline">About Nexis</Link></li>
+     |                      ^
+  44 |                 <li><Link href="#" className="hover:underline">Careers</Link></li>
+  45 |                 <li><Link href="#" className="hover:underline">Press Releases</Link></li>
+  46 |                 <li><Link href="#" className="hover:underline">Nexis Science</Link></li> {
+  digest: '1955754664'
+}
+ GET / 500 in 567ms (compile: 216ms, render: 351ms)
+⨯ ReferenceError: Link is not defined
+    at RootLayout (src/app/layout.tsx:43:22)
+  41 |               <h3 className="text-white text-base font-bold mb-4">Get to Know Us</h3>
+  42 |               <ul className="space-y-3 text-sm text-[#DDDDDD]">
+> 43 |                 <li><Link href="#" className="hover:underline">About Nexis</Link></li>
+     |                      ^
+  44 |                 <li><Link href="#" className="hover:underline">Careers</Link></li>
+  45 |                 <li><Link href="#" className="hover:underline">Press Releases</Link></li>
+  46 |                 <li><Link href="#" className="hover:underline">Nexis Science</Link></li> {
+  digest: '1955754664'
+}
+ GET / 500 in 227ms (compile: 25ms, render: 202ms)
+⨯ ReferenceError: Link is not defined
+    at RootLayout (src/app/layout.tsx:43:22)
+  41 |               <h3 className="text-white text-base font-bold mb-4">Get to Know Us</h3>
+  42 |               <ul className="space-y-3 text-sm text-[#DDDDDD]">
+> 43 |                 <li><Link href="#" className="hover:underline">About Nexis</Link></li>
+     |                      ^
+  44 |                 <li><Link href="#" className="hover:underline">Careers</Link></li>
+  45 |                 <li><Link href="#" className="hover:underline">Press Releases</Link></li>
+  46 |                 <li><Link href="#" className="hover:underline">Nexis Science</Link></li> {
+  digest: '1955754664'
+}
+ GET / 500 in 221ms (compile: 45ms, render: 176ms)
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 1637ms (compile: 171ms, render: 1466ms)
+✓ Compiled in 11ms
+ GET /product/65 200 in 814ms (compile: 686ms, render: 128ms)
+ GET /product/97 200 in 130ms (compile: 45ms, render: 85ms)
+ GET /checkout?productId=97 200 in 369ms (compile: 301ms, render: 68ms)
+✓ Finished filesystem cache database compaction in 24.5s
+ GET /checkout/success 200 in 1500ms (compile: 788ms, render: 712ms)
+ GET /checkout/success 200 in 48ms (compile: 11ms, render: 36ms)
+ GET /checkout/success 200 in 32ms (compile: 5ms, render: 27ms)
+ GET /checkout/success 200 in 50ms (compile: 9ms, render: 41ms)
+ GET /checkout/success 200 in 37ms (compile: 6ms, render: 31ms)
+ GET / 200 in 282ms (compile: 119ms, render: 163ms)
+○ Compiling /sell ...
+ GET /sell 200 in 7.0s (compile: 6.8s, render: 194ms)
+ GET / 200 in 276ms (compile: 127ms, render: 149ms)
+✓ Compiled in 3.7s
+ GET / 200 in 1552ms (compile: 530ms, render: 1023ms)
+✓ Compiled in 1158ms
+✓ Compiled in 1137ms
+✓ Compiled in 124ms
+ GET / 200 in 897ms (compile: 447ms, render: 450ms)
+ GET / 200 in 321ms (compile: 5ms, render: 316ms)
+ GET / 200 in 276ms (compile: 17ms, render: 259ms)
+ GET / 200 in 266ms (compile: 36ms, render: 230ms)
+ GET / 200 in 268ms (compile: 72ms, render: 196ms)
+ GET / 200 in 206ms (compile: 52ms, render: 154ms)
+ GET / 200 in 791ms (compile: 6ms, render: 785ms)
+ GET / 200 in 789ms (compile: 32ms, render: 757ms)
+ GET / 200 in 770ms (compile: 39ms, render: 731ms)
+ GET / 200 in 741ms (compile: 37ms, render: 705ms)
+ GET / 200 in 712ms (compile: 41ms, render: 671ms)
+ GET / 200 in 588ms (compile: 4ms, render: 584ms)
+ GET / 200 in 948ms (compile: 619ms, render: 329ms)
+ GET / 200 in 1474ms (compile: 20ms, render: 1454ms)
+ GET / 200 in 1477ms (compile: 127ms, render: 1350ms)
+ GET / 200 in 1377ms (compile: 97ms, render: 1280ms)
+ GET / 200 in 1291ms (compile: 1078ms, render: 213ms)
+ GET / 200 in 1293ms (compile: 1134ms, render: 159ms)
+ GET / 200 in 231ms (compile: 123ms, render: 108ms)
+ GET / 200 in 596ms (compile: 11ms, render: 584ms)
+ GET / 200 in 618ms (compile: 40ms, render: 577ms)
+ GET / 200 in 523ms (compile: 106ms, render: 417ms)
+ GET / 200 in 594ms (compile: 72ms, render: 522ms)
+ GET / 200 in 613ms (compile: 145ms, render: 467ms)
+ GET / 200 in 581ms (compile: 297ms, render: 283ms)
+ GET / 200 in 329ms (compile: 19ms, render: 310ms)
+ GET / 200 in 317ms (compile: 90ms, render: 227ms)
+ GET / 200 in 184ms (compile: 21ms, render: 164ms)
+ GET / 200 in 196ms (compile: 53ms, render: 143ms)
+ GET / 200 in 232ms (compile: 5ms, render: 227ms)
+ GET / 200 in 194ms (compile: 12ms, render: 182ms)
+ GET / 200 in 262ms (compile: 11ms, render: 251ms)
+ GET / 200 in 262ms (compile: 47ms, render: 214ms)
+ GET / 200 in 222ms (compile: 30ms, render: 192ms)
+ GET / 200 in 155ms (compile: 13ms, render: 142ms)
+ GET / 200 in 181ms (compile: 6ms, render: 175ms)
+ GET / 200 in 245ms (compile: 31ms, render: 214ms)
+ GET / 200 in 226ms (compile: 39ms, render: 187ms)
+ GET / 200 in 229ms (compile: 16ms, render: 213ms)
+ GET / 200 in 218ms (compile: 54ms, render: 163ms)
+ GET / 200 in 178ms (compile: 29ms, render: 149ms)
+ GET / 200 in 224ms (compile: 6ms, render: 218ms)
+ GET / 200 in 227ms (compile: 34ms, render: 193ms)
+ GET / 200 in 191ms (compile: 13ms, render: 179ms)
+ GET / 200 in 184ms (compile: 33ms, render: 151ms)
+ GET / 200 in 184ms (compile: 54ms, render: 130ms)
+ GET / 200 in 104ms (compile: 4ms, render: 100ms)
+ GET / 200 in 75ms (compile: 32ms, render: 43ms)
+ GET / 200 in 206ms (compile: 6ms, render: 200ms)
+ GET / 200 in 144ms (compile: 9ms, render: 135ms)
+ GET / 200 in 142ms (compile: 38ms, render: 104ms)
+ GET / 200 in 143ms (compile: 64ms, render: 79ms)
+✓ Finished filesystem cache database compaction in 18.2s
+ GET / 200 in 523ms (compile: 131ms, render: 392ms)
+ GET / 200 in 289ms (compile: 6ms, render: 283ms)
+ GET / 200 in 289ms (compile: 29ms, render: 260ms)
+ GET / 200 in 307ms (compile: 107ms, render: 200ms)
+ GET / 200 in 219ms (compile: 72ms, render: 147ms)
+ GET / 200 in 189ms (compile: 38ms, render: 151ms)
+ GET / 200 in 343ms (compile: 10ms, render: 333ms)
+ GET / 200 in 297ms (compile: 6ms, render: 291ms)
+ GET / 200 in 301ms (compile: 41ms, render: 260ms)
+ GET / 200 in 301ms (compile: 7ms, render: 294ms)
+ GET / 200 in 300ms (compile: 33ms, render: 268ms)
+ GET / 200 in 305ms (compile: 64ms, render: 241ms)
+ GET / 200 in 436ms (compile: 10ms, render: 426ms)
+ GET / 200 in 380ms (compile: 15ms, render: 365ms)
+ GET / 200 in 379ms (compile: 79ms, render: 300ms)
+ GET / 200 in 333ms (compile: 6ms, render: 326ms)
+ GET / 200 in 335ms (compile: 92ms, render: 243ms)
+ GET / 200 in 435ms (compile: 113ms, render: 321ms)
+ GET / 200 in 741ms (compile: 42ms, render: 699ms)
+ GET / 200 in 671ms (compile: 9ms, render: 662ms)
+ GET / 200 in 672ms (compile: 74ms, render: 597ms)
+ GET / 200 in 620ms (compile: 5ms, render: 615ms)
+ GET / 200 in 479ms (compile: 8ms, render: 471ms)
+ GET / 200 in 486ms (compile: 36ms, render: 451ms)
+ GET / 200 in 414ms (compile: 11ms, render: 403ms)
+ GET / 200 in 372ms (compile: 6ms, render: 367ms)
+ GET / 200 in 374ms (compile: 39ms, render: 335ms)
+ GET / 200 in 293ms (compile: 4ms, render: 289ms)
+ GET / 200 in 371ms (compile: 9ms, render: 362ms)
+ GET / 200 in 366ms (compile: 33ms, render: 332ms)
+ GET / 200 in 218ms (compile: 12ms, render: 207ms)
+ GET / 200 in 214ms (compile: 55ms, render: 159ms)
+ GET / 200 in 213ms (compile: 83ms, render: 130ms)
+ GET / 200 in 118ms (compile: 3ms, render: 115ms)
+ GET / 200 in 177ms (compile: 6ms, render: 172ms)
+ GET / 200 in 180ms (compile: 26ms, render: 154ms)
+ GET / 200 in 266ms (compile: 5ms, render: 261ms)
+ GET / 200 in 266ms (compile: 36ms, render: 230ms)
+ GET / 200 in 272ms (compile: 57ms, render: 215ms)
+ GET / 200 in 206ms (compile: 6ms, render: 200ms)
+ GET / 200 in 154ms (compile: 4ms, render: 150ms)
+ GET / 200 in 130ms (compile: 5ms, render: 125ms)
+ GET / 200 in 2.2s (compile: 231ms, render: 1970ms)
+ GET / 200 in 2.2s (compile: 344ms, render: 1888ms)
+ GET / 200 in 1903ms (compile: 93ms, render: 1809ms)
+ GET / 200 in 1957ms (compile: 8ms, render: 1949ms)
+ GET / 200 in 3.2s (compile: 62ms, render: 3.1s)
+ GET / 200 in 3.2s (compile: 26ms, render: 3.2s)
+ GET / 200 in 1867ms (compile: 102ms, render: 1765ms)
+ GET / 200 in 1862ms (compile: 846ms, render: 1016ms)
+ GET / 200 in 1785ms (compile: 1189ms, render: 596ms)
+ GET / 200 in 468ms (compile: 8ms, render: 460ms)
+ GET / 200 in 607ms (compile: 31ms, render: 575ms)
+ GET / 200 in 607ms (compile: 90ms, render: 518ms)
+ GET / 200 in 925ms (compile: 9ms, render: 916ms)
+ GET / 200 in 938ms (compile: 165ms, render: 774ms)
+ GET / 200 in 940ms (compile: 226ms, render: 714ms)
+ GET / 200 in 694ms (compile: 3ms, render: 691ms)
+ GET / 200 in 663ms (compile: 6ms, render: 657ms)
+ GET / 200 in 665ms (compile: 40ms, render: 626ms)
+ GET / 200 in 430ms (compile: 21ms, render: 410ms)
+ GET / 200 in 431ms (compile: 47ms, render: 384ms)
+ GET / 200 in 421ms (compile: 101ms, render: 320ms)
+ GET / 200 in 371ms (compile: 9ms, render: 362ms)
+ GET / 200 in 1018ms (compile: 4ms, render: 1014ms)
+ GET / 200 in 1233ms (compile: 73ms, render: 1160ms)
+ GET / 200 in 1973ms (compile: 398ms, render: 1575ms)
+ GET / 200 in 1977ms (compile: 23ms, render: 1953ms)
+ GET / 200 in 1974ms (compile: 597ms, render: 1377ms)
+ GET / 200 in 1292ms (compile: 8ms, render: 1284ms)
+ GET / 200 in 2.2s (compile: 21ms, render: 2.2s)
+ GET / 200 in 2.2s (compile: 10ms, render: 2.2s)
+ GET / 200 in 1946ms (compile: 14ms, render: 1931ms)
+ GET / 200 in 2.0s (compile: 144ms, render: 1867ms)
+ GET / 200 in 1437ms (compile: 11ms, render: 1426ms)
+ GET / 200 in 894ms (compile: 73ms, render: 821ms)
+ GET / 200 in 1009ms (compile: 197ms, render: 812ms)
+ GET / 200 in 1096ms (compile: 16ms, render: 1079ms)
+ GET / 200 in 2.3s (compile: 87ms, render: 2.2s)
+ GET / 200 in 2.3s (compile: 59ms, render: 2.3s)
+ GET / 200 in 2.3s (compile: 197ms, render: 2.2s)
+ GET / 200 in 2.1s (compile: 10ms, render: 2.1s)
+ GET / 200 in 1526ms (compile: 7ms, render: 1519ms)
+ GET / 200 in 1565ms (compile: 266ms, render: 1299ms)
+ GET / 200 in 942ms (compile: 268ms, render: 674ms)
+ GET / 200 in 943ms (compile: 218ms, render: 725ms)
+ GET / 200 in 936ms (compile: 310ms, render: 626ms)
+ GET / 200 in 791ms (compile: 12ms, render: 779ms)
+ GET / 200 in 467ms (compile: 5ms, render: 462ms)
+ GET / 200 in 468ms (compile: 97ms, render: 371ms)
+ GET / 200 in 396ms (compile: 59ms, render: 337ms)
+ GET / 200 in 398ms (compile: 7ms, render: 391ms)
+ GET / 200 in 397ms (compile: 138ms, render: 258ms)
+ GET / 200 in 426ms (compile: 7ms, render: 419ms)
+ GET / 200 in 348ms (compile: 59ms, render: 288ms)
+ GET / 200 in 350ms (compile: 6ms, render: 343ms)
+ GET / 200 in 542ms (compile: 11ms, render: 531ms)
+ GET / 200 in 544ms (compile: 42ms, render: 501ms)
+ GET / 200 in 547ms (compile: 78ms, render: 468ms)
+ GET / 200 in 442ms (compile: 13ms, render: 429ms)
+ GET / 200 in 384ms (compile: 59ms, render: 325ms)
+ GET / 200 in 384ms (compile: 155ms, render: 229ms)
+ GET / 200 in 278ms (compile: 16ms, render: 262ms)
+ GET / 200 in 268ms (compile: 68ms, render: 199ms)
+ GET / 200 in 272ms (compile: 37ms, render: 234ms)
+ GET / 200 in 261ms (compile: 45ms, render: 216ms)
+ GET / 200 in 272ms (compile: 9ms, render: 262ms)
+ GET / 200 in 226ms (compile: 31ms, render: 194ms)
+ GET / 200 in 319ms (compile: 5ms, render: 314ms)
+ GET / 200 in 295ms (compile: 6ms, render: 289ms)
+ GET / 200 in 296ms (compile: 37ms, render: 260ms)
+ GET / 200 in 304ms (compile: 13ms, render: 290ms)
+ GET / 200 in 297ms (compile: 131ms, render: 166ms)
+ GET / 200 in 300ms (compile: 98ms, render: 202ms)
+ GET / 200 in 224ms (compile: 9ms, render: 215ms)
+ GET / 200 in 191ms (compile: 28ms, render: 163ms)
+ GET / 200 in 194ms (compile: 4ms, render: 190ms)
+ GET / 200 in 216ms (compile: 6ms, render: 210ms)
+ GET / 200 in 220ms (compile: 32ms, render: 187ms)
+ GET / 200 in 198ms (compile: 33ms, render: 165ms)
+ GET / 200 in 420ms (compile: 4ms, render: 415ms)
+ GET / 200 in 454ms (compile: 5ms, render: 449ms)
+ GET / 200 in 454ms (compile: 30ms, render: 424ms)
+ GET / 200 in 460ms (compile: 7ms, render: 454ms)
+ GET / 200 in 434ms (compile: 7ms, render: 427ms)
+ GET / 200 in 466ms (compile: 117ms, render: 349ms)
+ GET / 200 in 287ms (compile: 3ms, render: 284ms)
+ GET / 200 in 240ms (compile: 8ms, render: 232ms)
+ GET / 200 in 244ms (compile: 33ms, render: 211ms)
+ GET / 200 in 179ms (compile: 5ms, render: 174ms)
+ GET / 200 in 150ms (compile: 4ms, render: 146ms)
+ GET / 200 in 99ms (compile: 9ms, render: 90ms)
+ GET /product/33 200 in 3.4s (compile: 2.4s, render: 1018ms)
+ GET /product/33 200 in 672ms (compile: 51ms, render: 621ms)
+ GET /product/65 200 in 630ms (compile: 247ms, render: 383ms)
+ GET / 200 in 69ms (compile: 21ms, render: 48ms)
+○ Compiling /help ...
+ GET /profile 200 in 1891ms (compile: 1584ms, render: 307ms)
+ GET /profile 200 in 1176ms (compile: 575ms, render: 601ms)
+ GET /help 200 in 19.0s (compile: 18.8s, render: 171ms)
+✓ Finished filesystem cache database compaction in 10.3s
+ GET /sell 200 in 973ms (compile: 789ms, render: 184ms)
+ GET /help 200 in 123ms (compile: 24ms, render: 99ms)
+ GET / 200 in 78ms (compile: 25ms, render: 53ms)
+ GET /product/65 200 in 233ms (compile: 101ms, render: 132ms)
+ GET / 200 in 225ms (compile: 82ms, render: 143ms)
+ GET /admin/dashboard 200 in 10.3s (compile: 5.2s, render: 5.1s)
+ GET /admin/dashboard 200 in 1943ms (compile: 260ms, render: 1683ms)
+○ Compiling /admin/security ...
+ GET /admin/security 200 in 4.3s (compile: 4.2s, render: 113ms)
+ GET /admin/settings 200 in 3.3s (compile: 2.8s, render: 468ms)
+✓ Finished filesystem cache database compaction in 20.6s
+✓ Finished writing to filesystem cache in 18.8s
+ GET /admin/dashboard 200 in 50ms (compile: 15ms, render: 36ms)
+ GET /admin/dashboard 200 in 10.3s (compile: 66ms, render: 10.2s)
+ GET /admin/users 200 in 5.6s (compile: 3.0s, render: 2.6s)
+ GET / 200 in 2.9s (compile: 31ms, render: 2.9s)
+ GET /sell 200 in 4.2s (compile: 861ms, render: 3.4s)
+○ Compiling /login ...
+✓ Compiled in 0ms
+ GET /login 200 in 27.5s (compile: 23.1s, render: 4.4s)
+ GET /login 200 in 3.5s (compile: 45ms, render: 3.5s)
+ GET /login 200 in 4.1s (compile: 1309ms, render: 2.8s)
+✓ Finished writing to filesystem cache in 18.6s
+ GET / 200 in 1889ms (compile: 1149ms, render: 740ms)
+✓ Compiled in 1800ms
+✓ Compiled in 1659ms
+ GET / 200 in 2.8s (compile: 1441ms, render: 1331ms)
+ GET /login 200 in 2.8s (compile: 2.1s, render: 687ms)
+✓ Compiled in 422ms
+✓ Compiled in 258ms
+✓ Compiled in 661ms
+✓ Compiled in 1460ms
+✓ Finished filesystem cache database compaction in 22.8s
+✓ Compiled in 489ms
+✓ Compiled in 261ms
+ GET /login 200 in 263ms (compile: 30ms, render: 233ms)
+ GET / 200 in 93ms (compile: 10ms, render: 82ms)
+✓ Compiled in 508ms
+ GET /product/161 200 in 1529ms (compile: 1423ms, render: 106ms)
+ GET / 200 in 57ms (compile: 19ms, render: 38ms)
+ GET /product/129 200 in 148ms (compile: 64ms, render: 84ms)
+○ Compiling /admin/edit/[id] ...
+ GET /admin/edit/129 200 in 4.4s (compile: 4.3s, render: 129ms)
+ GET /admin/edit/129 200 in 8.1s (compile: 8.0s, render: 130ms)
+ GET /product/129 200 in 94ms (compile: 33ms, render: 61ms)
+ GET /checkout?productId=129 200 in 410ms (compile: 260ms, render: 151ms)
+ GET /checkout/success 200 in 396ms (compile: 323ms, render: 72ms)
+ GET / 200 in 236ms (compile: 71ms, render: 165ms)
+✓ Compiled in 2.7s
+ GET /product/33 200 in 760ms (compile: 139ms, render: 621ms)
+ GET /product/65 200 in 590ms (compile: 126ms, render: 463ms)
+ GET /product/33 200 in 603ms (compile: 446ms, render: 157ms)
+ GET /checkout?productId=33 200 in 419ms (compile: 340ms, render: 79ms)
+ GET /checkout/success 200 in 214ms (compile: 117ms, render: 97ms)
+ GET / 200 in 138ms (compile: 68ms, render: 70ms)
+ GET /checkout?productId=33 200 in 45ms (compile: 7ms, render: 38ms)
+ GET /product/161 200 in 148ms (compile: 66ms, render: 82ms)
+ GET /checkout?productId=161 200 in 98ms (compile: 36ms, render: 62ms)
+ GET /help 200 in 240ms (compile: 129ms, render: 110ms)
+ GET /help 200 in 43ms (compile: 14ms, render: 30ms)
+ GET /help 200 in 60ms (compile: 23ms, render: 37ms)
+ GET /admin/dashboard 200 in 533ms (compile: 451ms, render: 82ms)
+ GET /admin/users 200 in 178ms (compile: 92ms, render: 87ms)
+ GET /admin/products 200 in 2.5s (compile: 2.1s, render: 373ms)
+ GET /admin/products 200 in 1115ms (compile: 495ms, render: 619ms)
+ GET /admin/products 200 in 377ms (compile: 94ms, render: 283ms)
+ GET /admin/security 200 in 149ms (compile: 89ms, render: 60ms)
+ GET /admin/settings 200 in 307ms (compile: 219ms, render: 87ms)
+ GET /admin/users 200 in 160ms (compile: 79ms, render: 81ms)
+✓ Finished filesystem cache database compaction in 30.5s
+✓ Finished writing to filesystem cache in 26.6s
+ GET / 200 in 203ms (compile: 123ms, render: 80ms)
+✓ Compiled in 5.5s
+✓ Compiled in 933ms
+ GET / 200 in 4.9s (compile: 2.7s, render: 2.2s)
+ GET /login 200 in 1318ms (compile: 86ms, render: 1232ms)
+✓ Compiled in 12.6s
+✓ Compiled in 3.6s
+✓ Compiled in 1012ms
+✓ Compiled in 986ms
+ GET /login 200 in 3.7s (compile: 925ms, render: 2.7s)
+ GET / 200 in 3.7s (compile: 1754ms, render: 1961ms)
+ GET / 200 in 1879ms (compile: 12ms, render: 1866ms)
+ GET / 200 in 2.4s (compile: 40ms, render: 2.4s)
+ GET / 200 in 2.4s (compile: 99ms, render: 2.3s)
+ GET / 200 in 2.4s (compile: 69ms, render: 2.3s)
+ GET / 200 in 2.5s (compile: 55ms, render: 2.4s)
+ GET /login 200 in 2.5s (compile: 43ms, render: 2.5s)
+ GET /login 200 in 2.6s (compile: 8ms, render: 2.6s)
+ GET /login 200 in 2.4s (compile: 6ms, render: 2.4s)
+ GET /login 200 in 2.5s (compile: 31ms, render: 2.4s)
+ GET /login 200 in 2.4s (compile: 173ms, render: 2.2s)
+ GET /login 200 in 1533ms (compile: 106ms, render: 1427ms)
+ GET / 200 in 932ms (compile: 215ms, render: 717ms)
+ GET / 200 in 696ms (compile: 10ms, render: 686ms)
+ GET / 200 in 701ms (compile: 85ms, render: 616ms)
+ GET / 200 in 705ms (compile: 41ms, render: 664ms)
+ GET / 200 in 674ms (compile: 91ms, render: 583ms)
+ GET /login 200 in 596ms (compile: 32ms, render: 564ms)
+ GET / 200 in 810ms (compile: 52ms, render: 758ms)
+ GET /login 200 in 938ms (compile: 12ms, render: 926ms)
+ GET /login 200 in 1184ms (compile: 13ms, render: 1171ms)
+ GET /login 200 in 1528ms (compile: 16ms, render: 1512ms)
+ GET /login 200 in 1410ms (compile: 9ms, render: 1401ms)
+ GET /login 200 in 1382ms (compile: 16ms, render: 1366ms)
+ GET / 200 in 1339ms (compile: 45ms, render: 1294ms)
+ GET / 200 in 1356ms (compile: 10ms, render: 1347ms)
+ GET / 200 in 1287ms (compile: 90ms, render: 1197ms)
+ GET / 200 in 1308ms (compile: 18ms, render: 1290ms)
+ GET /login 200 in 1279ms (compile: 221ms, render: 1058ms)
+ GET /login 200 in 949ms (compile: 24ms, render: 924ms)
+ GET /login 200 in 437ms (compile: 32ms, render: 405ms)
+✓ Finished filesystem cache database compaction in 34.4s
+ GET /product/33 200 in 1973ms (compile: 1383ms, render: 590ms)
+ GET /product/33 200 in 233ms (compile: 35ms, render: 197ms)
+ GET /checkout?productId=33 200 in 286ms (compile: 212ms, render: 74ms)
+ GET /checkout/success 200 in 1588ms (compile: 1475ms, render: 113ms)
+ GET /admin/dashboard 200 in 1897ms (compile: 1749ms, render: 148ms)
+ GET /admin/users 200 in 954ms (compile: 846ms, render: 108ms)
+ GET / 200 in 5.4s (compile: 313ms, render: 5.0s)
+ GET / 200 in 5.3s (compile: 60ms, render: 5.3s)
+ GET / 200 in 5.8s (compile: 1160ms, render: 4.7s)
+ GET / 200 in 3.6s (compile: 56ms, render: 3.5s)
+ GET /login 200 in 788ms (compile: 135ms, render: 653ms)
+ GET / 200 in 3.3s (compile: 254ms, render: 3.1s)
+✓ Compiled in 5.8s
+✓ Compiled in 3s
+ GET /admin/users 200 in 830ms (compile: 113ms, render: 717ms)
+✓ Compiled in 11.6s
+✓ Compiled in 0ms
+ GET / 200 in 3.0s (compile: 779ms, render: 2.2s)
+ GET / 200 in 6.2s (compile: 2.8s, render: 3.3s)
+ GET / 200 in 4.9s (compile: 23ms, render: 4.9s)
+ GET /admin/users 200 in 4.1s (compile: 1134ms, render: 3.0s)
+✓ Finished filesystem cache database compaction in 20.4s
+✓ Finished writing to filesystem cache in 18.7s
+✓ Compiled in 1860ms
+✓ Compiled in 3s
+ GET / 200 in 2.8s (compile: 744ms, render: 2.1s)
+✓ Compiled in 153ms
+ GET /admin/users 200 in 2.3s (compile: 1117ms, render: 1148ms)
+✓ Finished filesystem cache database compaction in 28.2s
+✓ Finished writing to filesystem cache in 26.3s
+✓ Compiled in 822ms
+✓ Compiled in 2.7s
+ GET / 200 in 2.2s (compile: 1365ms, render: 867ms)
+ GET / 200 in 568ms (compile: 4ms, render: 564ms)
+ GET / 200 in 613ms (compile: 6ms, render: 607ms)
+ GET / 200 in 566ms (compile: 5ms, render: 560ms)
+ GET / 200 in 536ms (compile: 10ms, render: 526ms)
+ GET / 200 in 436ms (compile: 11ms, render: 425ms)
+ GET / 200 in 351ms (compile: 5ms, render: 346ms)
+ GET / 200 in 329ms (compile: 18ms, render: 312ms)
+ GET / 200 in 291ms (compile: 5ms, render: 286ms)
+ GET / 200 in 256ms (compile: 5ms, render: 251ms)
+ GET / 200 in 266ms (compile: 3ms, render: 263ms)
+ GET / 200 in 365ms (compile: 6ms, render: 359ms)
+ GET / 200 in 1101ms (compile: 4ms, render: 1097ms)
+ GET / 200 in 1606ms (compile: 8ms, render: 1598ms)
+ GET / 200 in 2.1s (compile: 10ms, render: 2.1s)
+ GET / 200 in 2.0s (compile: 5ms, render: 2.0s)
+ GET / 200 in 2.0s (compile: 4ms, render: 2000ms)
+ GET / 200 in 1916ms (compile: 204ms, render: 1712ms)
+ GET / 200 in 1130ms (compile: 56ms, render: 1075ms)
+ GET / 200 in 680ms (compile: 65ms, render: 615ms)
+ GET / 200 in 298ms (compile: 4ms, render: 295ms)
+ GET / 200 in 267ms (compile: 4ms, render: 263ms)
+ GET / 200 in 446ms (compile: 5ms, render: 441ms)
+ GET / 200 in 619ms (compile: 6ms, render: 612ms)
+ GET / 200 in 595ms (compile: 5ms, render: 590ms)
+ GET / 200 in 585ms (compile: 47ms, render: 537ms)
+ GET / 200 in 523ms (compile: 6ms, render: 517ms)
+ GET / 200 in 394ms (compile: 80ms, render: 313ms)
+ GET / 200 in 253ms (compile: 20ms, render: 233ms)
+ GET / 200 in 194ms (compile: 6ms, render: 188ms)
+ GET / 200 in 168ms (compile: 7ms, render: 160ms)
+ GET / 200 in 182ms (compile: 3ms, render: 179ms)
+ GET / 200 in 190ms (compile: 7ms, render: 183ms)
+ GET / 200 in 192ms (compile: 4ms, render: 188ms)
+ GET / 200 in 188ms (compile: 4ms, render: 184ms)
+ GET / 200 in 167ms (compile: 6ms, render: 161ms)
+ GET / 200 in 163ms (compile: 3ms, render: 160ms)
+ GET / 200 in 239ms (compile: 4ms, render: 235ms)
+ GET / 200 in 381ms (compile: 5ms, render: 377ms)
+ GET / 200 in 365ms (compile: 5ms, render: 360ms)
+ GET / 200 in 504ms (compile: 5ms, render: 499ms)
+ GET / 200 in 524ms (compile: 11ms, render: 513ms)
+ GET / 200 in 474ms (compile: 14ms, render: 460ms)
+ GET / 200 in 445ms (compile: 7ms, render: 437ms)
+ GET / 200 in 250ms (compile: 15ms, render: 235ms)
+ GET / 200 in 159ms (compile: 8ms, render: 151ms)
+ GET / 200 in 95ms (compile: 4ms, render: 91ms)
+ GET / 200 in 46ms (compile: 6ms, render: 40ms)
+✓ Compiled in 1945ms
+ GET /admin/users 200 in 1880ms (compile: 606ms, render: 1275ms)
+ GET /admin/users 200 in 945ms (compile: 10ms, render: 934ms)
+ GET /admin/users 200 in 947ms (compile: 130ms, render: 817ms)
+ GET /admin/users 200 in 947ms (compile: 189ms, render: 758ms)
+ GET /admin/users 200 in 768ms (compile: 32ms, render: 736ms)
+ GET /admin/users 200 in 783ms (compile: 218ms, render: 565ms)
+ GET /admin/users 200 in 682ms (compile: 69ms, render: 613ms)
+ GET /admin/users 200 in 645ms (compile: 191ms, render: 454ms)
+ GET /admin/users 200 in 816ms (compile: 86ms, render: 730ms)
+ GET /admin/users 200 in 443ms (compile: 54ms, render: 389ms)
+ GET /admin/users 200 in 548ms (compile: 9ms, render: 540ms)
+ GET /admin/users 200 in 548ms (compile: 80ms, render: 469ms)
+ GET /admin/users 200 in 649ms (compile: 18ms, render: 631ms)
+ GET /admin/users 200 in 510ms (compile: 7ms, render: 503ms)
+ GET /admin/users 200 in 417ms (compile: 5ms, render: 412ms)
+ GET /admin/users 200 in 306ms (compile: 18ms, render: 288ms)
+ GET /admin/users 200 in 425ms (compile: 42ms, render: 384ms)
+ GET /admin/users 200 in 179ms (compile: 9ms, render: 170ms)
+ GET /admin/users 200 in 698ms (compile: 3ms, render: 695ms)
+ GET /admin/users 200 in 667ms (compile: 264ms, render: 403ms)
+ GET /admin/users 200 in 671ms (compile: 294ms, render: 377ms)
+ GET /admin/users 200 in 678ms (compile: 37ms, render: 640ms)
+ GET /admin/users 200 in 679ms (compile: 226ms, render: 453ms)
+ GET /admin/users 200 in 683ms (compile: 7ms, render: 677ms)
+ GET /admin/users 200 in 365ms (compile: 23ms, render: 342ms)
+ GET /admin/users 200 in 312ms (compile: 70ms, render: 242ms)
+ GET /admin/users 200 in 316ms (compile: 15ms, render: 301ms)
+ GET /admin/users 200 in 316ms (compile: 102ms, render: 214ms)
+ GET /admin/users 200 in 335ms (compile: 197ms, render: 138ms)
+ GET /admin/users 200 in 343ms (compile: 164ms, render: 178ms)
+ GET /admin/users 200 in 320ms (compile: 50ms, render: 271ms)
+ GET /admin/users 200 in 323ms (compile: 10ms, render: 313ms)
+ GET /admin/users 200 in 318ms (compile: 86ms, render: 232ms)
+ GET /admin/users 200 in 187ms (compile: 3ms, render: 184ms)
+ GET /admin/users 200 in 281ms (compile: 9ms, render: 271ms)
+ GET /admin/users 200 in 375ms (compile: 31ms, render: 344ms)
+ GET /admin/users 200 in 421ms (compile: 10ms, render: 411ms)
+ GET /admin/users 200 in 421ms (compile: 78ms, render: 343ms)
+ GET /admin/users 200 in 423ms (compile: 126ms, render: 297ms)
+ GET /admin/users 200 in 321ms (compile: 13ms, render: 309ms)
+ GET /admin/users 200 in 513ms (compile: 8ms, render: 505ms)
+ GET /admin/users 200 in 514ms (compile: 44ms, render: 470ms)
+ GET /admin/users 200 in 596ms (compile: 10ms, render: 585ms)
+ GET /admin/users 200 in 589ms (compile: 122ms, render: 467ms)
+ GET /admin/users 200 in 472ms (compile: 74ms, render: 399ms)
+ GET /admin/users 200 in 145ms (compile: 33ms, render: 112ms)
+ GET /admin/users 200 in 232ms (compile: 14ms, render: 217ms)
+ GET /admin/users 200 in 147ms (compile: 71ms, render: 75ms)
+ GET / 200 in 50ms (compile: 20ms, render: 31ms)
+✓ Compiled in 5.2s
+ GET /product/33 200 in 6.2s (compile: 1097ms, render: 5.1s)
+✓ Compiled in 0ms
+ GET / 200 in 13.0s (compile: 1590ms, render: 11.4s)
+ GET / 200 in 5.2s (compile: 642ms, render: 4.5s)
+ GET /product/33 200 in 139ms (compile: 21ms, render: 118ms)
+ GET /checkout?productId=33 200 in 894ms (compile: 746ms, render: 148ms)
+✓ Finished filesystem cache database compaction in 28.0s
+ GET /checkout/success 200 in 1040ms (compile: 640ms, render: 400ms)
+ GET / 200 in 59ms (compile: 13ms, render: 46ms)
+ GET /product/33 200 in 89ms (compile: 23ms, render: 66ms)
+ GET /product/33 200 in 642ms (compile: 25ms, render: 616ms)
+ GET /product/33 200 in 313ms (compile: 9ms, render: 304ms)

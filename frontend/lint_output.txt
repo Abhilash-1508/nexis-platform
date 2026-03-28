@@ -1,0 +1,136 @@
+
+> frontend@0.1.0 lint
+> eslint
+
+
+/Users/user/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/admin/dashboard/page.tsx
+  5:38  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/user/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/admin/edit/[id]/page.tsx
+  12:50  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/user/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/admin/layout.tsx
+  23:9   error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+/Users/user/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/admin/layout.tsx:23:9
+  21 |         router.push('/'); 
+  22 |       } else {
+> 23 |         setIsAuthorized(true);
+     |         ^^^^^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  24 |       }
+  25 |     } catch (e) {
+  26 |       router.push('/');  react-hooks/set-state-in-effect
+  25:14  warning  'e' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+
+/Users/user/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/admin/products/page.tsx
+  5:44  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               @typescript-eslint/no-explicit-any
+  7:21  error    Error: Cannot access variable before it is declared
+
+`fetchProducts` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.
+
+/Users/user/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/admin/products/page.tsx:7:21
+   5 |   const [products, setProducts] = useState<any[]>([]);
+   6 |
+>  7 |   useEffect(() => { fetchProducts(); }, []);
+     |                     ^^^^^^^^^^^^^ `fetchProducts` accessed before it is declared
+   8 |
+   9 |   const getHeaders = () => {
+  10 |     const userStr = localStorage.getItem('recommerce_user');
+
+/Users/user/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/admin/products/page.tsx:15:3
+  13 |   };
+  14 |
+> 15 |   const fetchProducts = () => {
+     |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 16 |     fetch('http://localhost:8080/api/admin/products', { headers: getHeaders() })
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 17 |       .then(res => res.json())
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 18 |       .then(data => setProducts(data || []))
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 19 |       .catch(console.error);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 20 |   };
+     | ^^^^^ `fetchProducts` is declared here
+  21 |
+  22 |   const deleteProduct = async (id: number) => {
+  23 |     if (!confirm('Force Delete this product completely? This action cannot be undone.')) return;  react-hooks/immutability
+  7:41  warning  React Hook useEffect has a missing dependency: 'fetchProducts'. Either include it or remove the dependency array                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       react-hooks/exhaustive-deps
+
+/Users/user/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/admin/users/page.tsx
+  5:38  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  7:21  error    Error: Cannot access variable before it is declared
+
+`fetchUsers` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.
+
+/Users/user/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/admin/users/page.tsx:7:21
+   5 |   const [users, setUsers] = useState<any[]>([]);
+   6 |
+>  7 |   useEffect(() => { fetchUsers(); }, []);
+     |                     ^^^^^^^^^^ `fetchUsers` accessed before it is declared
+   8 |
+   9 |   const getHeaders = () => {
+  10 |     const userStr = localStorage.getItem('recommerce_user');
+
+/Users/user/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/admin/users/page.tsx:15:3
+  13 |   };
+  14 |
+> 15 |   const fetchUsers = () => {
+     |   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 16 |     fetch('http://localhost:8080/api/admin/users', { headers: getHeaders() })
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 17 |       .then(res => res.json())
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 18 |       .then(data => setUsers(data || []))
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 19 |       .catch(console.error);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 20 |   };
+     | ^^^^^ `fetchUsers` is declared here
+  21 |
+  22 |   const suspendUser = async (id: number) => {
+  23 |     if (!confirm('Suspend this user and freeze their listings?')) return;  react-hooks/immutability
+  7:38  warning  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              react-hooks/exhaustive-deps
+
+/Users/user/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/checkout/[id]/page.tsx
+   21:50  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  225:21  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/Users/user/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/login/page.tsx
+  8:9  warning  'router' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/user/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx
+   83:5   error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+/Users/user/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/page.tsx:83:5
+  81 |
+  82 |   useEffect(() => {
+> 83 |     fetchProducts(queryKeyword || keyword);
+     |     ^^^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  84 |   }, [selectedCategory, selectedCondition, queryKeyword]);
+  85 |
+  86 |   const handleSearch = (e: React.FormEvent) => {  react-hooks/set-state-in-effect
+   84:6   warning  React Hook useEffect has missing dependencies: 'fetchProducts' and 'keyword'. Either include them or remove the dependency array                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                react-hooks/exhaustive-deps
+  108:14  warning  'err' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 @typescript-eslint/no-unused-vars
+  276:21  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         @next/next/no-img-element
+
+/Users/user/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/product/[id]/page.tsx
+  91:12  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/Users/user/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/src/app/register/page.tsx
+  8:9  warning  'router' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+✖ 19 problems (9 errors, 10 warnings)
+

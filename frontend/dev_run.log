@@ -1,0 +1,36 @@
+
+> frontend@0.1.0 dev
+> next dev
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/user/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /Users/user/Documents/workspace-spring-tools-for-eclipse-5.0.0.RELEASE/recommerce-platform/frontend/package-lock.json
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.186:3000
+- Environments: .env.local
+
+✓ Starting...
+✓ Ready in 5s
+ GET /checkout?productId=33 200 in 4.0s (compile: 2.7s, render: 1362ms)
+ GET /checkout?productId=33 200 in 120ms (compile: 7ms, render: 113ms)
+ GET /apple-touch-icon-precomposed.png 404 in 2.5s (compile: 1756ms, render: 794ms)
+ GET /apple-touch-icon.png 404 in 213ms (compile: 19ms, render: 194ms)
+ GET /checkout?productId=33 200 in 185ms (compile: 17ms, render: 169ms)
+ GET /checkout?productId=33 200 in 261ms (compile: 30ms, render: 232ms)
+ GET /checkout?productId=33 200 in 1313ms (compile: 286ms, render: 1027ms)
+○ Compiling /checkout/success ...
+ GET /checkout/success 200 in 18.0s (compile: 16.9s, render: 1063ms)
+ GET /checkout/success 200 in 409ms (compile: 152ms, render: 256ms)
+ GET / 200 in 2.6s (compile: 1590ms, render: 977ms)
+ GET /product/33 200 in 6.4s (compile: 5.8s, render: 585ms)
+ GET /checkout?productId=33 200 in 112ms (compile: 7ms, render: 105ms)
+ GET /checkout/success 200 in 234ms (compile: 7ms, render: 227ms)
+ GET / 200 in 567ms (compile: 43ms, render: 524ms)
+ GET /product/129 200 in 663ms (compile: 72ms, render: 590ms)
+ GET /checkout?productId=129 200 in 59ms (compile: 17ms, render: 42ms)
+ GET /checkout/success 200 in 156ms (compile: 29ms, render: 126ms)
