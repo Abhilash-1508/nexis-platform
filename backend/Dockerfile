@@ -23,4 +23,4 @@ RUN mkdir -p /app/data && chmod 777 /app/data
 EXPOSE 8080
 
 # Execution Entrypoint
-ENTRYPOINT ["java", "-Djava.security.egd=file:/dev/./urange", "-jar", "/app/app.jar"]
+ENTRYPOINT ["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", "/app/app.jar"]

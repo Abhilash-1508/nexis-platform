@@ -177,12 +177,15 @@ public class EmailNotificationService {
     //  Convenience helpers
     // ──────────────────────────────────────────────
 
+    @Value("${frontend.url:http://localhost:3000}")
+    private String frontendUrl;
+
     public void sendProductListedEmail(String toEmail, String productName) {
         String htmlBody = "<div style='font-family: Arial, sans-serif; padding: 20px; border: 1px solid #eee; border-radius: 10px;'>"
             + "<h2 style='color: #4f46e5;'>Your Listing is Live on Nexis!</h2>"
             + "<p>Your item <strong>" + productName + "</strong> has been successfully listed on the Nexis marketplace.</p>"
             + "<p>Buyers can now discover and purchase your product.</p>"
-            + "<a href='http://localhost:3000' style='display:inline-block;padding:10px 20px;background:#4f46e5;color:white;border-radius:6px;text-decoration:none;'>View Marketplace</a>"
+            + "<a href='" + frontendUrl + "' style='display:inline-block;padding:10px 20px;background:#4f46e5;color:white;border-radius:6px;text-decoration:none;'>View Marketplace</a>"
             + "</div>";
         sendHtmlEmail(toEmail, "✅ Nexis: Your listing is live — " + productName, htmlBody);
     }
