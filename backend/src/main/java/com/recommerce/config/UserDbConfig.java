@@ -23,7 +23,7 @@ import java.util.HashMap;
 @Configuration
 @EnableTransactionManagement
 @EnableJpaRepositories(
-        basePackages = {"com.recommerce.user", "com.recommerce.security.apikey"},
+        basePackages = {"com.recommerce.user", "com.recommerce.security.apikey", "com.recommerce.admin"},
         entityManagerFactoryRef = "userEntityManagerFactory",
         transactionManagerRef = "userTransactionManager"
 )
@@ -48,7 +48,7 @@ public class UserDbConfig {
             @Qualifier("userDataSource") DataSource dataSource) {
         LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(dataSource);
-        em.setPackagesToScan("com.recommerce.user", "com.recommerce.security.apikey");
+        em.setPackagesToScan("com.recommerce.user", "com.recommerce.security.apikey", "com.recommerce.admin");
 
         HibernateJpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         em.setJpaVendorAdapter(vendorAdapter);
