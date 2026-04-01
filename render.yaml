@@ -17,6 +17,8 @@ services:
         value: jdbc:h2:file:./data/products;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
       - key: FRONTEND_URL
         value: https://nexis-platform.vercel.app # Change this after Vercel deploy
+      - key: OPENAI_API_KEY
+        value: sk-placeholder
 
   # ---------------------------------------------------------------------------
   # FRONTEND SERVICE (Vercel is better, but this is a backup for Render)
