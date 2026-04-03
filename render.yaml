@@ -10,7 +10,7 @@ services:
     region: oregon
     envVars:
       - key: PORT
-        value: 8080
+        value: "8080"
       - key: DATASOURCE_USERS_URL
         value: jdbc:h2:file:./data/users;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
       - key: DATASOURCE_PRODUCTS_URL
@@ -37,3 +37,5 @@ services:
           type: web
           name: nexis-backend
           property: host
+      - key: NODE_VERSION
+        value: "20"
